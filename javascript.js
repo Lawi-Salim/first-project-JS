@@ -1,10 +1,10 @@
                     
 
-/*                     Game PIERRE - FEUILLE - CISEAUX                          */
+/*                     Game ROCK - PAPER - SCISSORS                          */
 
 
 
-// Logique for choice Computer
+// Write the logic to get the computer choice
 
 function getComputerChoice() {
     const choiceGame = ["rock", "paper", "scissors"]
@@ -15,29 +15,30 @@ function getComputerChoice() {
 }
 
 
-
-// Logique for choice Human
+// Write the logic to get the human choice
 
 function getHumanChoice() {
     const choiceGame = ["rock", "paper", "scissors"]
     const choice = prompt("What is your choice : rock, paper ou scissors ?").toLowerCase()
     while(!choiceGame.includes(choice)) {
-        console.log(`Please write "pierre", "papier" ou "ciseaux".`)
+        console.log(`Please write "rock", "paper" ou "scissors".`)
         choice = prompt("What is your choice : rock, paper ou scissors ?").toLowerCase()
     }
     console.log("User has chosen : " + choice + "\n")
     return choice
 }
 
+// Write the logic to play the entire game
 
 function playGame(rounds) {
+
     // Score variable declarations
     
     let humanScore = 0
     let computerScore = 0
+
     
-    
-    // Logic for a single turn
+    // Write the logic to play a single round
     
     function playRound(humanChoice, computerChoice) {
     
@@ -71,4 +72,4 @@ function playGame(rounds) {
 
 }
 
-playGame(3)
+playGame(5)
