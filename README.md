@@ -16,15 +16,15 @@ The Rock, Paper, Scissors game is a simple but fun project that uses basic JavaS
 
 # Features
 
-* Interactive game: The user plays against the computer in a game of Rock, Paper, Scissors.
-* Dynamic choice: The game uses a random choice for the computer.
-* Score management: The score is automatically updated after each round.
-* User choice validation: The game checks the validity of the user's choice and prompts a replay
+* *Interactive game:* The user plays against the computer in a game of Rock, Paper, Scissors.
+* *Dynamic choice:* The game uses a random choice for the computer.
+* *Score management:* The score is automatically updated after each round.
+* *User choice validation:* The game checks the validity of the user's choice and prompts a replay
   in the event of an invalid entry.
-* Simple user interface: Interaction via dialog boxes and JavaScript alerts.
+* *Simple user interface:* Interaction via dialog boxes and JavaScript alerts.
 
 # Technologies used
 
-* HTML5: Content structure.
-* CSS3 (optional if used to style the project): For formatting.
-* JavaScript : Game logic and interaction management.
+* *HTML5:* Content structure.
+* *CSS3 (optional if used to style the project):* For formatting.
+* *JavaScript:* Game logic and interaction management.
